@@ -1,0 +1,38 @@
+#header{
+	width:700px;
+	height:50px;
+	border-style:solid;
+	border-color:black;
+	
+	margin:0 auto;
+}
+#header>a{
+ float: right;
+}
+#header>h1{
+	float:left;
+}
+#container{
+	width:700px;
+	border-style:solid;
+	border-color:black;
+	
+	margin:0 auto;
+}
+#skillLink{
+	width:250px;
+	height:250px;
+	border-style:solid;
+	position:absolute;
+	left:20%;
+}
+#wrap{
+	height:300px;
+}
+#coachLink{
+	width:250px;
+	height:250px;
+	border-style:solid;
+	position:absolute;
+	right:20%;
+}
