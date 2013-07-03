@@ -1,5 +1,5 @@
 <?php
-	include('../config/database.php');
+	include('../Config/database.php');
 	
 	if(isset($_GET["delete"]) && isset($_GET["id"]))
 	{

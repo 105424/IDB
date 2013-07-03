@@ -1,5 +1,5 @@
 <?php	
-	include('../config/database.php');
+	include('../Config/database.php');
 	
 	if(isset($_GET['id']) == false && isset($_GET['name'])==false) 
 	{
@@ -43,7 +43,7 @@
 	while($row = mysqli_fetch_assoc($_Skills))
 	{
 		$obj = new Skill;
-		$obj->id = $row['idSkills']; $obj->name = $row['Skill']; $obj->lvl = $row['MaxLevel']; $obj->categorie = $row['Categorie']; $obj->subCategorie = $row['SubCategorie'];
+		$obj->id = $row['idSkills']; $obj->name = $row['Name']; $obj->lvl = $row['MaxLevel']; $obj->categorie = $row['Categorie']; $obj->subCategorie = $row['SubCategorie'];
 		array_push($skills, $obj);
 	}		
 	
